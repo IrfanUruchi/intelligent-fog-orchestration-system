@@ -62,7 +62,7 @@ The Fog Intelligence LLM Service connects to local Ollama models and generates o
               | MQTT                           | MQTT
               v                                v
 +---------------------------+      +---------------------------+
-|        IoT Node 1          |      |        IoT Node 2          |
+|    IoT Smart Node 1       |      |      IoT SmartNode 2      |
 |---------------------------|      |---------------------------|
 | Node Agent                |      | Node Agent                |
 | Docker Engine             |      | Docker Engine             |
@@ -304,6 +304,8 @@ OLLAMA_BASE_URL=http://host.docker.internal:11434
 OLLAMA_MODEL=llama3.2
 ```
 
+`CEREBRAS_API_KEY` is used only by the Integral Calculator workload. The Fog Intelligence LLM Service does not use Cerebras; it connects to local Ollama through `OLLAMA_BASE_URL` and `OLLAMA_MODEL`.
+
 Runtime secrets, API keys, and tokens are provided through environment variables or local `.env` files. Local `.env` files are excluded from version control.
 
 ---
@@ -526,6 +528,8 @@ This avoids relying only on one-time commands. The node continuously observes ru
 
 The system includes token-based protection for controlled access paths and keeps runtime secrets outside the repository. API keys, service tokens, and runtime configuration values are passed through environment variables or local `.env` files instead of being hardcoded into the source code.
 
+The implementation also includes rate limiting, burst limiting, restricted configuration updates, Docker-managed labels, and controlled workload handling so that containers created by the orchestration system can be identified and managed safely by the node agent.
+
 The IoT Smart Node requires access to the Docker socket because it manages the local Docker runtime directly. This gives the node agent control over workload deployment on its host machine, so the node agent is treated as a trusted runtime component.
 
 MQTT is used as the communication backbone between the controller and the nodes. The system separates node identity, telemetry, desired-state messages, and orchestration events through structured message handling.
@@ -561,7 +565,7 @@ event-log-ai-summary.png
 docker-hub-multiarch.png
 ```
 
-These images document the system architecture, controller state, distributed nodes, deployed workloads, AI-assisted explanation output, CNN inference output, operational summary, orchestration event log, and Docker Hub multi-architecture image support.
+These images document the system architecture, controller state, distributed nodes, deployed workloads, AI-assisted explanation output, CNN inference output, operational summaries, orchestration events, and Docker Hub multi-architecture image support.
 
 ---
 
