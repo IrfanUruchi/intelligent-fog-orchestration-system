@@ -75,11 +75,7 @@ The Fog Intelligence LLM Service connects to local Ollama models and generates o
 +---------------------------+      +---------------------------+
 ```
 
-A visual architecture diagram will be stored at:
-
-```text
-docs/images/architecture.png
-```
+![Architecture Overview](docs/images/architecture.png)
 
 ---
 
