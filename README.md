@@ -62,7 +62,7 @@ The Fog Intelligence LLM Service connects to local Ollama models and generates o
               | MQTT                           | MQTT
               v                                v
 +---------------------------+      +---------------------------+
-|    IoT Smart Node 1       |      |      IoT SmartNode 2      |
+|    IoT Smart Node 1       |      |      IoT Smart Node 2     |
 |---------------------------|      |---------------------------|
 | Node Agent                |      | Node Agent                |
 | Docker Engine             |      | Docker Engine             |
@@ -663,8 +663,8 @@ This project is released under the MIT License.
 
 ## 22. Author
 
-**Irfan Uruçi**
-Computer Engineering / Computer Science
-South East European University
-Intelligent Systems Course Project
+**Irfan Uruçi**  
+Computer Engineering / Computer Science  
+South East European University  
+Intelligent Systems Course Project  
 Academic Year 2026
