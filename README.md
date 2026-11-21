@@ -1,5 +1,17 @@
 # Intelligent Fog Orchestration System
 
+**Author:** Irfan Uruchi  
+**Institution:** South East European University  
+**Academic context:** Intelligent Systems · May 2026
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24426543.svg)](https://doi.org/10.5281/zenodo.24426543)
+[![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
+[![Paper License: CC BY 4.0](https://img.shields.io/badge/Paper%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+**Published research report:** [Zenodo](https://doi.org/10.5281/zenodo.24426543) · **DOI:** `10.5281/zenodo.24426543`
+
+---
+
 A distributed intelligent fog orchestration system for managing IoT and edge workloads through MQTT communication, Docker-based deployment, telemetry monitoring, token-protected control, desired-state reconciliation, remote node connectivity, and AI-assisted operational support.
 
 This repository is the main entry point for the complete Intelligent Fog Orchestration System. It connects the component repositories, Docker images, deployment flow, workload configuration, project evidence, research paper, and presentation into one organized project package.
@@ -641,9 +653,33 @@ docker logs fog-controller
 
 The final project package includes this main repository, the component repositories, Docker images, project screenshots, the research paper, and the presentation.
 
-The paper describes the architecture, implementation, fog deployment model, intelligent support layer, workload case studies, evaluation, security model, limitations, and future work.
+### Research Publication
 
-The presentation focuses on the system goal, architecture, MQTT communication, node design, Docker orchestration, AI-assisted support, distributed deployment, reliability behavior, workload case studies, evaluation, and execution flow.
+**Intelligent Fog Orchestration System for Distributed IoT Workload Management**
+
+The research report documents the system architecture, implementation, fog deployment model, intelligent support layer, heterogeneous workload case studies, evaluation, security model, limitations, and future work.
+
+- **Author:** Irfan Uruchi
+- **Institution:** South East European University
+- **Publication date:** May 30, 2026
+- **Publisher:** Zenodo
+- **DOI:** [10.5281/zenodo.24426543](https://doi.org/10.5281/zenodo.24426543)
+- **License:** CC BY 4.0
+
+[Read the published research report on Zenodo](https://zenodo.org/records/24426543)
+
+### Citation
+
+If you use or reference this research, please cite:
+
+**Uruchi, I. (2026).** *Intelligent Fog Orchestration System for Distributed IoT Workload Management*. Zenodo.  
+https://doi.org/10.5281/zenodo.24426543
+
+Additional citation formats, including BibTeX, are available from the Zenodo publication record.
+
+### Presentation
+
+The presentation focuses on the system architecture, MQTT communication, node design, Docker orchestration, AI-assisted operational support, distributed deployment, reliability behavior, workload case studies, evaluation, and execution flow.
 
 ---
 
@@ -657,14 +693,24 @@ The current version focuses on the complete working system: Fog Controller, MQTT
 
 ## 21. License
 
-This project is released under the MIT License.
+The original source code is distributed under the **MIT License**, as specified in the repository's license file.
+
+The accompanying research report is published under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+**Research report:** https://doi.org/10.5281/zenodo.24426543
+
+Third-party software, pretrained models, container images, and dependencies remain subject to their respective licensing terms.
 
 ---
 
 ## 22. Author
 
-**Irfan Uruçi**  
-Computer Engineering / Computer Science  
+**Irfan Uruchi**  
+Computer Engineering  
+Faculty of Contemporary Sciences and Technologies  
 South East European University  
-Intelligent Systems Course Project  
-Academic Year 2026
+Tetovo, North Macedonia
+
+- **Academic context:** Intelligent Systems Course Project, 2026
+- **ORCID:** [0009-0000-9036-8172](https://orcid.org/0009-0000-9036-8172)
+- **Research publication:** [10.5281/zenodo.24426543](https://doi.org/10.5281/zenodo.24426543)
