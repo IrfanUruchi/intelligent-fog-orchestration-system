@@ -338,7 +338,7 @@ The Fog Intelligence LLM Service connects to Ollama and provides operational sum
 ```bash
 docker run -d \
   --name fog-intelligence-llm \
-  -p 8001:8001 \
+  -p 8002:8001 \
   -e OLLAMA_BASE_URL=http://host.docker.internal:11434 \
   -e OLLAMA_MODEL=llama3.2 \
   irfanuruchi/fog-intelligence-llm:latest
@@ -353,7 +353,7 @@ docker run -d \
   -e MQTT_HOST=host.docker.internal \
   -e MQTT_PORT=1883 \
   -e DEVICE_TOKEN=changeme \
-  -e FOG_INTELLIGENCE_URL=http://host.docker.internal:8001 \
+  -e FOG_INTELLIGENCE_URL=http://host.docker.internal:8002 \
   irfanuruchi/fog-controller:latest
 ```
 
@@ -582,6 +582,7 @@ These images document the system architecture, controller state, distributed nod
 ```text
 intelligent-fog-orchestration-system/
 ├── README.md
+├── CITATION.cff
 ├── LICENSE
 ├── docs/
 │   ├── architecture.md
