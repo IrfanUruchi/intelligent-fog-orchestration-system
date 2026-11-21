@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this research or its implementation, please cite the associated report."
+type: software
+
+title: "Intelligent Fog Orchestration System"
+authors:
+  - family-names: Uruchi
+    given-names: Irfan
+    orcid: "https://orcid.org/0009-0000-9036-8172"
+
+repository-code: "https://github.com/IrfanUruchi/intelligent-fog-orchestration-system"
+
+preferred-citation:
+  type: report
+  title: "Intelligent Fog Orchestration System for Distributed IoT Workload Management"
+  authors:
+    - family-names: Uruchi
+      given-names: Irfan
+      orcid: "https://orcid.org/0009-0000-9036-8172"
+  year: 2026
+  publisher: Zenodo
+  doi: "10.5281/zenodo.24426543"
+  url: "https://doi.org/10.5281/zenodo.24426543"
